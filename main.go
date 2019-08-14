@@ -66,16 +66,22 @@ func main() {
 				} else {
 					for _, pv := range v.Status.ContainerStatuses {
 						if pv.State.Terminated != nil {
-							//fmt.Printf("Terminating: Namespace: %s, Name: %s, NodeName: %s\n", v.ObjectMeta.Namespace, v.ObjectMeta.Name, v.Spec.NodeName)
 							log.WithFields(log.Fields{
 								"Status":    "Terminating",
 								"Namespace": v.ObjectMeta.Namespace,
 								"Name":      v.ObjectMeta.Name,
 								"Node":      v.Spec.NodeName,
 							}).Warn()
-						}
+                        }
 					}
 				}
+			} else if v.Status.Reason == "NodeLost" {
+				log.WithFields(log.Fields{
+					"Status":    "NodeLost",
+					"Namespace": v.ObjectMeta.Namespace,
+					"Name":      v.ObjectMeta.Name,
+					"Node":      v.Spec.NodeName,
+				}).Warn(v.Status.Message)
 			}
 		}
 		// Sleep for 60 seconds, start loop over
