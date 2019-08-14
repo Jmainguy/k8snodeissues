@@ -72,7 +72,7 @@ func main() {
 								"Name":      v.ObjectMeta.Name,
 								"Node":      v.Spec.NodeName,
 							}).Warn()
-                        }
+						}
 					}
 				}
 			} else if v.Status.Reason == "NodeLost" {
