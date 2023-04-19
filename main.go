@@ -1,7 +1,9 @@
 package main
 
 import (
+	"context"
 	"flag"
+
 	//"fmt"
 	"os"
 	"path/filepath"
@@ -34,12 +36,14 @@ func main() {
 		panic(err.Error())
 	}
 
+	ctx := context.Background()
+
 	// create the clientset
 	clientset, err := kubernetes.NewForConfig(config)
 	if err != nil {
 		panic(err.Error())
 	}
-	pods, err := clientset.CoreV1().Pods("").List(metav1.ListOptions{})
+	pods, err := clientset.CoreV1().Pods("").List(ctx, metav1.ListOptions{})
 	if err != nil {
 		panic(err.Error())
 	}

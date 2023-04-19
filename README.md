@@ -15,3 +15,5 @@ Login to your kubernetes cluster, then run
 ```/bin/bash
 ./k8sNodeIssues
 ```
+
+It stays running in a loop with a 60 second sleep, control c when ready to quit.
