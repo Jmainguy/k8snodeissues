@@ -5,7 +5,7 @@ go 1.19
 require (
 	github.com/sirupsen/logrus v1.9.0
 	k8s.io/apimachinery v0.27.1
-	k8s.io/client-go v0.27.1
+	k8s.io/client-go v11.0.0+incompatible
 )
 
 require (
