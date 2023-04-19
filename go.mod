@@ -1,4 +1,4 @@
-module github.com/jmainguy/k8sNodeIssues
+module github.com/jmainguy/k8snodeissues
 
 go 1.19
 

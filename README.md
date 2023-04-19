@@ -1,4 +1,4 @@
-# k8sNodeIssues
+# k8snodeissues
 This command is designed to point out potential issues in a kubernetes node.
 such as pods stuck terminating, or pending
 
@@ -6,14 +6,13 @@ such as pods stuck terminating, or pending
 ```/bin/bash
 export GO111MODULE=on
 go mod init
-go get k8s.io/client-go@v12.0.0
 go build
 ```
 
 ## Usage
 Login to your kubernetes cluster, then run
 ```/bin/bash
-./k8sNodeIssues
+./k8snodeissues
 ```
 
 It stays running in a loop with a 60 second sleep, control c when ready to quit.
