@@ -4,8 +4,6 @@ such as pods stuck terminating, or pending
 
 ## Build
 ```/bin/bash
-export GO111MODULE=on
-go mod init
 go build
 ```
 
