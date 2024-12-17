@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/Jmainguy/k8snodeissues/compare/v0.1.3...v0.1.4) (2024-12-17)
+
+
+### Bug Fixes
+
+* **deps:** update kubernetes packages to v0.32.0 ([52199ab](https://github.com/Jmainguy/k8snodeissues/commit/52199ab5a3ebf9ae196b3f6ef47a3453b77f431a))
+
 ## [0.1.3](https://github.com/Jmainguy/k8snodeissues/compare/v0.1.2...v0.1.3) (2024-11-02)
 
 
