@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.0.0](https://github.com/Jmainguy/k8snodeissues/compare/v0.1.4...v1.0.0) (2025-08-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* release 1.0
+
+### Features
+
+* release 1.0 ([46e23cc](https://github.com/Jmainguy/k8snodeissues/commit/46e23ccec751084bdd835fbfada14054b721f417))
+
 ## [0.1.4](https://github.com/Jmainguy/k8snodeissues/compare/v0.1.3...v0.1.4) (2024-12-17)
 
 
