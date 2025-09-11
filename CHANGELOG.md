@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.1](https://github.com/Jmainguy/k8snodeissues/compare/v1.0.0...v1.0.1) (2025-09-11)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies to v0.34.1 ([76e720a](https://github.com/Jmainguy/k8snodeissues/commit/76e720ae8a7438caa97dea2601bb75082a2952ef))
+* **deps:** update all non-major dependencies to v0.34.1 ([d19f845](https://github.com/Jmainguy/k8snodeissues/commit/d19f8452c7e744c6b872acd228e02bf2a6b90599))
+
 ## [1.0.0](https://github.com/Jmainguy/k8snodeissues/compare/v0.1.4...v1.0.0) (2025-08-28)
 
 
