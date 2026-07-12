@@ -5,7 +5,7 @@ go 1.25.0
 require (
 	github.com/sirupsen/logrus v1.9.4
 	k8s.io/apimachinery v0.35.3
-	k8s.io/client-go v0.35.3
+	k8s.io/client-go v1.5.2
 )
 
 require (
