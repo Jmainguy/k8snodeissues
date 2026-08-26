@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/Jmainguy/k8snodeissues/compare/v1.0.3...v1.0.4) (2026-08-26)
+
+
+### Bug Fixes
+
+* **deps:** update module github.com/sirupsen/logrus to v1.10.2 ([#54](https://github.com/Jmainguy/k8snodeissues/issues/54)) ([e8c75e5](https://github.com/Jmainguy/k8snodeissues/commit/e8c75e571e7cd4fd794b43dd38561204a494928e))
+
 ## [1.0.3](https://github.com/Jmainguy/k8snodeissues/compare/v1.0.2...v1.0.3) (2026-08-25)
 
 
